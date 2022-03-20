@@ -1,11 +1,15 @@
-import "./app.scss"
+import { FC } from "react";
+import { Layout } from "components";
+import "./app.scss";
 
-const App = () => {
+const App: FC = () => {
   return (
     <div>
-      test
+      <Layout>
+        <h1>testtt</h1>
+      </Layout>
     </div>
   );
-}
+};
 
 export default App;
